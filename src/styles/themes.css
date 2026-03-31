@@ -1,0 +1,107 @@
+/* ============================================
+   MarkFlow Design Tokens - Theme Variables
+   ============================================ */
+
+:root {
+  /* --- Comfortable White Light Theme --- */
+  --bg-app: #f8f9fa;
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f1f3f5;
+  --bg-surface-active: #e9ecef;
+  --bg-sidebar: #f8f9fa;
+  --bg-toolbar: #f8f9fa;
+  --bg-statusbar: #f8f9fa;
+  --bg-code: #f1f3f5;
+  --bg-code-block: #f8f9fa;
+  --bg-blockquote: #fcfcfc;
+  --bg-input: #ffffff;
+  --bg-tooltip: #343a40;
+
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  --text-inverse: #ffffff;
+  --text-link: #339af0;
+  --text-code: #e64980;
+  --text-heading: #212529;
+
+  --border-default: #dee2e6;
+  --border-light: #e9ecef;
+  --border-focus: #adb5bd;
+
+  --accent: #666666;
+  --accent-hover: #333333;
+  --accent-subtle: rgba(0, 0, 0, 0.05);
+  --accent-glow: rgba(0, 0, 0, 0.15);
+
+  --danger: #d9534f;
+  --success: #5cb85c;
+  --warning: #f0ad4e;
+
+  --shadow-sm: none;
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-toolbar: none;
+
+  --scrollbar-thumb: rgba(0, 0, 0, 0.15);
+  --scrollbar-thumb-hover: rgba(0, 0, 0, 0.3);
+
+  --hr-color: #ededed;
+  --blockquote-border: #dfdfdf;
+  --table-border: #dfdfdf;
+  --table-header-bg: #f8f8f8;
+}
+
+[data-theme="dark"] {
+  /* --- Typora Dark Theme --- */
+  --bg-app: #282828;
+  --bg-surface: #282828;
+  --bg-surface-hover: #333333;
+  --bg-surface-active: #444444;
+  --bg-sidebar: #222222;
+  --bg-toolbar: #282828;
+  --bg-statusbar: #282828;
+  --bg-code: #333333;
+  --bg-code-block: #212121;
+  --bg-blockquote: #242424;
+  --bg-input: #333333;
+  --bg-tooltip: #111111;
+
+  --text-primary: #b8b8b8;
+  --text-secondary: #888888;
+  --text-tertiary: #666666;
+  --text-inverse: #eeeeee;
+  --text-link: #4183c4;
+  --text-code: #d2a8ff;
+  --text-heading: #dddddd;
+
+  --border-default: #393939;
+  --border-light: #2c2c2c;
+  --border-focus: #555555;
+
+  --accent: #aaaaaa;
+  --accent-hover: #cccccc;
+  --accent-subtle: rgba(255, 255, 255, 0.05);
+  --accent-glow: rgba(255, 255, 255, 0.2);
+
+  --shadow-sm: none;
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-toolbar: none;
+
+  --scrollbar-thumb: rgba(255, 255, 255, 0.15);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.3);
+
+  --hr-color: #393939;
+  --blockquote-border: #444444;
+  --table-border: #393939;
+  --table-header-bg: #222222;
+}
+
+/* Smooth theme transition */
+html, body, #app, .sidebar, #main-content, #toolbar, #statusbar,
+#editor-wrapper, .cm-editor, .sidebar-header, .sidebar-tabs,
+.sidebar-body, .toolbar-btn, .icon-btn, .sidebar-tab {
+  transition: background-color 0.35s ease, color 0.35s ease,
+              border-color 0.35s ease, box-shadow 0.35s ease;
+}
