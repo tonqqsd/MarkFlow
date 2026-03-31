@@ -22,7 +22,7 @@ Antigravity is a highly-performant, minimalist macOS Markdown editor designed to
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/antigravity.git
+   git clone https://github.com/tonqqsd/Antigravity.git
    ```
 2. Navigate into the project directory:
    ```bash
