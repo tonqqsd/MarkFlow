@@ -22,11 +22,11 @@ Antigravity is a highly-performant, minimalist macOS Markdown editor designed to
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tonqqsd/Antigravity.git
+   git clone https://github.com/tonqqsd/MarkFlow.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd antigravity
+   cd MarkFlow
    ```
 3. Install dependencies:
    ```bash
